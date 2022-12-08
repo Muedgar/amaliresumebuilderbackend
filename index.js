@@ -14,6 +14,8 @@ app.use(express.json());
 
 app.use("/amaliresumebuilder/backend/api", router);
 
+
+
 const start  = async () => {
   mongoose.set('strictQuery', false);
   await mongoose.connect(dbSecrets.MONGO_URI)
@@ -26,3 +28,7 @@ const start  = async () => {
 }
 
 start();
+
+app.get('/', (req,res) => {
+  res.status(200).json({status: "Server is ready..."});
+})
