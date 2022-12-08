@@ -10,7 +10,7 @@ const resume = new mongoose.Schema({
         required: true
     },
     introduction: {
-        type: String,
+        type: Array,
         required: true
     },
     workExperience: {
@@ -18,7 +18,7 @@ const resume = new mongoose.Schema({
         required: true
     },
     education: {
-        type: String,
+        type: Array,
         required: true
     },
     proSkills: {
@@ -30,7 +30,7 @@ const resume = new mongoose.Schema({
         required: true
     },
     hobbies: {
-        type:String,
+        type:Array,
         required: true
     },
     followme: {
