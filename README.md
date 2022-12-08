@@ -44,4 +44,4 @@ Step 3: add the following environment variables to your .env file
 
 Step 4: run `npm run dev`
 
-#### Live project can be found here: `https://amali-resumebuilder.herokuapp.com/`
+#### Live project can be found here: https://amali-resumebuilder.herokuapp.com/
