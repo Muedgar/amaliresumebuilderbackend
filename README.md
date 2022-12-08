@@ -29,8 +29,12 @@ Backend: Express, MongoDB
 #### Front end repository: https://github.com/Muedgar/resumebuilder.git
 
 Step 1: Clone this repository to your local environment
+
 Step 2: cd into the clone
-Step 3: run `npm start`
+
+Step 3: run `npm install`
+
+Step 4: run `npm start`
 
 #### Back end repository: https://github.com/Muedgar/amaliresumebuilderbackend.git
 
@@ -42,6 +46,8 @@ Step 3: add the following environment variables to your .env file
 
 `MONGO_URI` `PORT` `JWT_SECRET`
 
-Step 4: run `npm run dev`
+Step 4: run `npm install`
+
+Step 5: run `npm run dev`
 
 #### Live project can be found here: https://amali-resumebuilder.herokuapp.com/
